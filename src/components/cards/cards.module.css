@@ -1,0 +1,57 @@
+.app {
+    margin: 0 auto;
+    padding: 51px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.title {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 133.2%;
+    text-transform: capitalize;
+}
+.cardsList {
+    margin: 0 auto;
+    padding: 20px 20px 20px 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 44px;
+}
+.cardItem {
+    margin: 0 auto;
+    padding: 20px 20px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+    box-shadow: 0 28px 57px rgba(190, 190, 190, 0.25);
+    border-radius: 10px;
+}
+.cardItemTitle {
+    margin: 0;
+    padding-top: 17px;
+}
+.cardItemText {
+    margin: 0;
+}
+.image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 62px;
+    height: 62px;
+}
+.imageGear {
+    background-image: url('../../../public/gear.svg');
+    composes: image;
+}
+.imageUser {
+    background-image: url('../../../public/user.svg');
+    composes: image;
+}
+.imageCheck {
+    background-image: url('../../../public/check.svg');
+    composes: image;
+}

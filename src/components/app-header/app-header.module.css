@@ -1,0 +1,23 @@
+.app {
+    margin: 0 auto;
+    padding: 51px 30px 20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menuList {
+    margin: 0 auto;
+    max-width: 737px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 45px;
+    justify-content:  space-between;
+    list-style-type: none;
+}
+.logo {
+    margin: 0;
+    background-image: url('../../../public/logo.png');
+    width: 260px;
+    height: 55px;
+}
