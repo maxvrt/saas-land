@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Jost';
+  src: url('../../fonts/Jost.ttf');
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../fonts/OpenSans-Regular.ttf');
+}
+.main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-family: 'Jost', serif;
+  color: #303030;
+  width: 100%;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
