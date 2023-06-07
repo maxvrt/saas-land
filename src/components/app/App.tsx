@@ -5,6 +5,7 @@ import Promo from '../promo/Promo';
 import HomeComponent from '../home-component/Home-component';
 import Cards from '../cards/Cards';
 import Analytics from '../analytics/Analytics';
+import Crm from '../crm/Crm';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
                 <Promo />
                 <Cards />
                 <Analytics />
+                <Crm />
             </div>
         </HomeComponent>
     </div>
