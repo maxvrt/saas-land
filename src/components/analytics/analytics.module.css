@@ -8,19 +8,19 @@
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
-    min-height: 930px;
+    min-height: 755px;
 }
 .app1{
     position: absolute;
     left: 0;
     top: 1323px;
-    background-image: url('../../../public/bgAnalytics.png');
+    background-image: url('../../../public/bgAnalytics.jpg');
     background-attachment: scroll;
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
     min-height: 1230px;
-    min-width: 1400px;
+    min-width: 900px;
     z-index: -1;
 }
 .title {
