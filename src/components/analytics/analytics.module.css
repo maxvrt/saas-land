@@ -36,6 +36,7 @@
     background: rgba(242, 242, 242, 0.93);
     box-shadow: -33px 60px 72px rgba(155, 155, 155, 0.2);
     border-radius: 30px;
+    margin-left: 10px;
 }
 .saleAnalytic {
     margin: 68px 65px 21px 65px;

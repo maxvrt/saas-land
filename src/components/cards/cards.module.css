@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: column;
     row-gap: 15px;
+    justify-content: center;
+    align-items: center;
 }
 .title {
     margin: 0;
@@ -29,6 +31,7 @@
     column-gap: 5px;
     box-shadow: 0 28px 57px rgba(190, 190, 190, 0.25);
     border-radius: 10px;
+    background: rgba(255, 255, 255, 0.83);
 }
 .cardItemTitle {
     margin: 0;

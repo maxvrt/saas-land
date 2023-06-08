@@ -6,6 +6,8 @@ import HomeComponent from '../home-component/Home-component';
 import Cards from '../cards/Cards';
 import Analytics from '../analytics/Analytics';
 import Crm from '../crm/Crm';
+import Trust from '../trust/Trust';
+import Sales from '../sales/sales';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
                 <Cards />
                 <Analytics />
                 <Crm />
+                <Trust />
+                <Sales />
             </div>
         </HomeComponent>
     </div>
