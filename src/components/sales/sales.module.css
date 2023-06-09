@@ -48,7 +48,7 @@
     margin-left: 119px;
     padding-top: 25px;
     padding-bottom: 25px;
-    width: 290px;
+    width: 260px;
     height: 94px;
     font-family: 'Roboto';
     font-style: normal;
@@ -79,8 +79,8 @@
     left: -73px;
     top: 45px;
     content: '';
-    width: 56px;
-    height: 55px;
+    width: 57px;
+    height: 56px;
 }
 .table li:nth-child(1)::before {
     background-image: url('../../../public/SaleIcon1.svg');

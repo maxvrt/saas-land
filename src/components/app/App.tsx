@@ -8,6 +8,7 @@ import Analytics from '../analytics/Analytics';
 import Crm from '../crm/Crm';
 import Trust from '../trust/Trust';
 import Sales from '../sales/sales';
+import Price from '../price/price';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                 <Crm />
                 <Trust />
                 <Sales />
+                <Price />
             </div>
         </HomeComponent>
     </div>
