@@ -32,7 +32,10 @@ export default function Price() {
                         <h3 className={price.headProf}>
                             Professional
                         </h3>
-                        <h2 className={price.byMonth}>$60/mo</h2>
+                        <div className={price.byMonthSaleWrapper}>
+                            <h2 className={price.byMonth}>$60/mo</h2>
+                            <div className={price.byMonthSale}></div>
+                        </div>
                         <p className={price.text}>Includes <strong>2,000</strong> marketing contacts. Additional marketing contacts are sold in increments of <strong>5,000</strong> from</p>
                         <ul className={price.list}>
                             <li className={price.elem}>Outbound email and in-product</li>

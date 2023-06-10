@@ -9,6 +9,7 @@ import Crm from '../crm/Crm';
 import Trust from '../trust/Trust';
 import Sales from '../sales/sales';
 import Price from '../price/price';
+import Footer from '../footer/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                 <Sales />
                 <Price />
             </div>
+            <Footer />
         </HomeComponent>
     </div>
   );
