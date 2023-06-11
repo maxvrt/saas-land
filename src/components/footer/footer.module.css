@@ -9,7 +9,7 @@
 .wrap {
     margin: 0 auto;
     width: 100%;
-    max-width: 1053px;
+    max-width: 1205px;
 }
 .head {
     margin: 0 auto;
@@ -58,8 +58,9 @@
     margin: 0;
     display: flex;
     flex-direction: row;
-    column-gap: 107px;
+    column-gap: 41px;
     border-top: 1px solid #4A4A4A;
+    padding-top: 10px;
 }
 .table {
     composes: tableHead;
@@ -67,24 +68,59 @@
 .tableEl {
     width: 150px;
 }
+.tableNewsHead {
+    padding-left: 80px;
+    width: 150px;
+}
+.tableNews {
+    width: 557px;
+    height: 226px;
+    background-image: url('../../../public/news.jpg');
+    border-radius: 20px;
+    margin-left: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tableBlock {
+    margin-left: -5px;
+}
 .tableElBlock {
     width: 250px;
-    border: 1px solid #4A4A4A;
-    border-radius: 20px;
     box-sizing: border-box;
     padding: 20px;
-    margin: 10px 0 10px 0;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
     text-transform: capitalize;
     color: #FFFFFF;
+    border-radius: 20px;
+    background-color: #303030;
 }
-.last {    
+.tableElBlockBg {
+    padding: 1px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #4a4a4a, rgba(0, 0, 0, 0));
+}
+.last {
     margin: 0 auto;
     text-align: center;
     border-top: 1px solid #4A4A4A;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.button {
+    margin: 0 auto;
+    width: 268px;
+    height: 84px;
+    border: none;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #313131;
 }

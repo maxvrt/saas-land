@@ -128,43 +128,55 @@
     padding-top: 30px;
     display: flex;
     flex-direction: row;
-    column-gap: 15px;
-    row-gap: 15px;
+    column-gap: 12px;
+    row-gap: 12px;
     flex-wrap: wrap;
     transform: rotate(-21.46deg);
 }
+.graph {
+    box-shadow: 19px 25px 36px rgba(162, 162, 162, 0.25), inset -2px 2px 0 #FFFFFF;
+    border-radius: 34px;
+}
 .graphRectangle {
+    composes: graph;
     width: 327px;
     height: 158px;
-    background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
-    box-shadow: 19.7234px 24.8686px 36.0166px rgba(162, 162, 162, 0.25), inset -2.57262px 2.57262px 0px #FFFFFF;
-    backdrop-filter: blur(10.7192px);
-    border-radius: 34.3016px;
+    background: #ffffff url(../../../public/1.png) no-repeat center;
+    background-size: 85%;
+    background-origin: padding-box;
 }
 .graphSmallRectangle {
-    width: 236px;
-    height: 114px;
-    background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
-    box-shadow: 19.7234px 24.8686px 36.0166px rgba(162, 162, 162, 0.25), inset -2.57262px 2.57262px 0px #FFFFFF;
-    backdrop-filter: blur(10.7192px);
-    border-radius: 34.3016px;
+    composes: graph;
+    width: 226px;
+    height: 104px;
+    background: #ffffff url(../../../public/2.png) no-repeat center;
+    background-size: 85%;
+    background-origin: padding-box;
+    align-self: end;
 }
 .graphBigSquare {
+    composes: graph;
     width: 260px;
     height: 296px;
-    background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
-    box-shadow: 19.7234px 24.8686px 36.0166px rgba(162, 162, 162, 0.25), inset -2.57262px 2.57262px 0px #FFFFFF;
-    backdrop-filter: blur(10.7192px);
-    border-radius: 34.3016px;
+    background: #ffffff url(../../../public/3.png) no-repeat center;
+    background-size: 135%;
+    background-origin: padding-box;
 }
 .graphSquare {
+    composes: graph;
     width: 272px;
     height: 273px;
-    background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
-    box-shadow: 19.7234px 24.8686px 36.0166px rgba(162, 162, 162, 0.25), inset -2.57262px 2.57262px 0px #FFFFFF;
-    backdrop-filter: blur(10.7192px);
-    border-radius: 34.3016px;
+    background:#ffffff url(../../../public/4.png) no-repeat center;
+    background-size: 105%;
+    background-origin: padding-box;
 }
-
+.graphRectangleTwo {
+    composes: graph;
+    width: 327px;
+    height: 158px;
+    background: #ffffff url(../../../public/5.png) no-repeat center;
+    background-size: 105%;
+    background-origin: padding-box;
+}
 
 

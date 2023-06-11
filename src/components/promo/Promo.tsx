@@ -32,7 +32,7 @@ export default function Promo() {
                 <div className={promo.graphSmallRectangle}></div>
                 <div className={promo.graphBigSquare}></div>
                 <div className={promo.graphSquare}></div>
-                <div className={promo.graphRectangle}></div>
+                <div className={promo.graphRectangleTwo}></div>
             </div>
 
         </div>
