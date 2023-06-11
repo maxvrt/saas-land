@@ -1,0 +1,149 @@
+.app {
+    margin: 0 auto;
+    padding: 51px 30px 20px 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+.leftBox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 55px;
+}
+.leftBoxTitle {
+    margin: 0;
+    padding-bottom: 15px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 133.2%;
+    text-transform: capitalize;
+    color: #303030;
+}
+.leftBoxText {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #4E4E4E;
+}
+.ways {
+    display: flex;
+    flex-direction: row;
+    column-gap: 43px;
+}
+.waysTitle {
+    composes: leftBoxTitle;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 0;
+}
+.waysBlock {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.waysIconShield {
+    width: 94px;
+    height: 44px;
+    background-image: url('../../../public/shield.svg');
+    background-repeat: no-repeat;
+}
+.waysIconSpeaker {
+    width: 66px;
+    height: 37px;
+    background-image: url('../../../public/speaker.svg');
+    background-repeat: no-repeat;
+}
+.leftBox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 55px;
+    width: 699px;
+}
+
+.circle {
+    position: relative;
+    width: 430px;
+    height: 430px;
+    background-image: url('../../../public/ellipse.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    padding-left: 1px;
+}
+.circle span {
+    position: absolute;
+    top: 37%;
+    left: 37%;
+    transform-origin: center center;
+}
+.circle span:nth-child(1) {
+    transform: rotate(0deg) translate(-200px) rotate(0deg);
+}
+.circle span:nth-child(2) {
+    transform: rotate(45deg) translate(-200px) rotate(-45deg);
+}
+.circle span:nth-child(3) {
+    transform: rotate(90deg) translate(-200px) rotate(-90deg);
+}
+.circle span:nth-child(4) {
+    transform: rotate(135deg) translate(-200px) rotate(-135deg);
+}
+.circle span:nth-child(5) {
+    transform: rotate(180deg) translate(-200px) rotate(-180deg);
+}
+.circle span:nth-child(6) {
+    transform: rotate(225deg) translate(-200px) rotate(-225deg);
+}
+.circle span:nth-child(7) {
+    transform: rotate(270deg) translate(-200px) rotate(-270deg);
+}
+.circle span:nth-child(8) {
+    transform: rotate(315deg) translate(-200px) rotate(-315deg);
+}
+.circle span:nth-child(9) {
+    /* this is the center number */
+    transform: translate(-26%, -18%);
+}
+.cart {
+    background-image: url('../../../public/cart.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 133px;
+    height: 133px;
+}
+.location {
+    composes: cart;
+    background-image: url('../../../public/location.svg');
+}
+.book {
+    composes: cart;
+    background-image: url('../../../public/book.svg');
+}
+.chat {
+    composes: cart;
+    background-image: url('../../../public/chat.svg');
+}
+.mail {
+    composes: cart;
+    background-image: url('../../../public/mail.svg');
+}
+.phone {
+    composes: cart;
+    background-image: url('../../../public/phone.svg');
+}
+.shop {
+    composes: cart;
+    background-image: url('../../../public/shop.svg');
+}
+.crm {
+    composes: cart;
+    width: 233px;
+    height: 233px;
+    background-image: url('../../../public/CRM.svg');
+}

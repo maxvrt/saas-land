@@ -1,0 +1,182 @@
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 75px;
+    padding-top: 50px;
+    justify-content: space-between;
+    overflow: hidden;
+    border-bottom: 1px solid #DEDEDE;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0 0 0 25px;
+    width: 1083px;
+}
+.header {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 133.2%;
+    text-transform: capitalize;
+    color: #303030;
+}
+.text {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #4E4E4E;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 36px;
+    padding-bottom: 56px;
+}
+.button {
+    width: 183px;
+    height: 60px;
+    border: none;
+    background: #303030;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.short {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #303030;
+}
+.winner {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    border-top: 1px solid #DEDEDE;
+    padding-top: 56px;
+}
+.leftBranch {
+    margin: 0;
+    background-image: url('../../../public/leftBranch.png');
+    background-repeat: no-repeat;
+    width: 51px;
+    height: 155px;
+}
+.rightBranch {
+    margin: 0;
+    background-image: url('../../../public/rightBranch.png');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 155px;
+}
+.flag {
+    background-image: url('../../../public/flag.png');
+    background-repeat: no-repeat;
+    width: 109.61px;
+    height: 140.79px;
+}
+.stars {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+.smallHeader {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 133.2%;
+    text-transform: capitalize;
+}
+.starsList {
+    margin: 0 auto;
+    padding-top: 5px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2px;
+    padding-inline-start: 0;
+}
+.star {
+    background-image: url('../../../public/star.svg');
+    background-repeat: no-repeat;
+    width: 38.57px;
+    height: 38.57px;
+}
+.graphics {
+    position: relative;
+    width: 1167px;
+    height: 650px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    row-gap: 12px;
+    flex-wrap: wrap;
+    transform: rotate(-21.46deg);
+}
+.graph {
+    box-shadow: 19px 25px 36px rgba(162, 162, 162, 0.25), inset -2px 2px 0 #FFFFFF;
+    border-radius: 34px;
+}
+.graphRectangle {
+    composes: graph;
+    width: 327px;
+    height: 158px;
+    background: #ffffff url(../../../public/1.png) no-repeat center;
+    background-size: 85%;
+    background-origin: padding-box;
+}
+.graphSmallRectangle {
+    composes: graph;
+    width: 226px;
+    height: 104px;
+    background: #ffffff url(../../../public/2.png) no-repeat center;
+    background-size: 85%;
+    background-origin: padding-box;
+    align-self: end;
+}
+.graphBigSquare {
+    composes: graph;
+    width: 260px;
+    height: 296px;
+    background: #ffffff url(../../../public/3.png) no-repeat center;
+    background-size: 135%;
+    background-origin: padding-box;
+}
+.graphSquare {
+    composes: graph;
+    width: 272px;
+    height: 273px;
+    background:#ffffff url(../../../public/4.png) no-repeat center;
+    background-size: 105%;
+    background-origin: padding-box;
+}
+.graphRectangleTwo {
+    composes: graph;
+    width: 327px;
+    height: 158px;
+    background: #ffffff url(../../../public/5.png) no-repeat center;
+    background-size: 105%;
+    background-origin: padding-box;
+}
+
+

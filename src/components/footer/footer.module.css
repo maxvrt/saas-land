@@ -1,0 +1,126 @@
+.app {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    background: #303030;
+    color: #FFFFFF;
+}
+.wrap {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1205px;
+}
+.head {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 157px;
+    justify-content: space-between;
+    padding: 100px 0 20px 0;
+}
+.logo {
+    margin: 0;
+    background-image: url('../../../public/logo.png');
+    width: 260px;
+    height: 55px;
+}
+.social {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 27px;
+}
+.element {
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    background-size: contain;
+}
+.social span:nth-child(1) {
+    background-image: url('../../../public/instagram.svg');
+}
+.social span:nth-child(2) {
+    background-image: url('../../../public/facebook.svg');
+}
+.social span:nth-child(3) {
+    background-image: url('../../../public/twiter.svg');
+}
+.social span:nth-child(4) {
+    background-image: url('../../../public/linkedin.svg');
+}
+.social span:nth-child(5) {
+    background-image: url('../../../public/youtube.svg');
+    width: 28px;
+    height: 28px;
+}
+.tableHead {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 41px;
+    border-top: 1px solid #4A4A4A;
+    padding-top: 10px;
+}
+.table {
+    composes: tableHead;
+}
+.tableEl {
+    width: 150px;
+}
+.tableNewsHead {
+    padding-left: 80px;
+    width: 150px;
+}
+.tableNews {
+    width: 557px;
+    height: 226px;
+    background-image: url('../../../public/news.jpg');
+    border-radius: 20px;
+    margin-left: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tableBlock {
+    margin-left: -5px;
+}
+.tableElBlock {
+    width: 250px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-radius: 20px;
+    background-color: #303030;
+}
+.tableElBlockBg {
+    padding: 1px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #4a4a4a, rgba(0, 0, 0, 0));
+}
+.last {
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #4A4A4A;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button {
+    margin: 0 auto;
+    width: 268px;
+    height: 84px;
+    border: none;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #313131;
+}

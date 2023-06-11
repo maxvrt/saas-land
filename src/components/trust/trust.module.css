@@ -1,0 +1,84 @@
+.app {
+    margin: 0 auto;
+    padding: 121px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.headTitle {
+    margin: 0 auto;
+    padding-bottom: 15px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 133.2%;
+    text-transform: capitalize;
+    color: #303030;
+}
+.headText {
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #4E4E4E;
+    text-align: center;
+}
+.table {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.element {
+    margin:3px;
+    padding: 13px 98px 13px 98px;
+    width: 80px;
+    height: 80px;
+    background: rgba(243, 243, 243, 0.93) no-repeat center;
+    border-radius: 5%;
+}
+.table li:nth-child(1) {
+    background-image: url('../../../public/cross-xy.svg');
+}
+.table li:nth-child(2) {
+    background-image: url('../../../public/bittorent.svg');
+}
+.table li:nth-child(3) {
+    background-image: url('../../../public/brand.svg');
+}
+.table li:nth-child(4) {
+    background-image: url('../../../public/vs.svg');
+}
+.table li:nth-child(5) {
+    background-image: url('../../../public/bitmax.svg');
+}
+.table li:nth-child(6) {
+    background-image: url('../../../public/target.svg');
+}
+.table li:nth-child(7) {
+    background-image: url('../../../public/crypto7.svg');
+}
+.table li:nth-child(8) {
+    background-image: url('../../../public/classic8.svg');
+}
+.table li:nth-child(9) {
+    background-image: url('../../../public/upshot9.svg');
+}
+.table li:nth-child(10) {
+    background-image: url('../../../public/kotak11.svg');
+}
+.table li:nth-child(11) {
+    background-image: url('../../../public/vunzo12.svg');
+}
+.table li:nth-child(12) {
+    background-image: url('../../../public/minti13.svg');
+}
